@@ -47,7 +47,7 @@ func someFunctionThatTakeClosure(closure:() -> ())
 }
 
 someFunctionTakeClosure({
-    function body  讲函数实现直接写入参数括号内
+    function body  将函数实现直接写入参数括号内
 })
 
 someFunctionTakeTrailingClosure()
