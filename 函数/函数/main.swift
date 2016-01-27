@@ -52,6 +52,8 @@ func addTwoInts(a: Int, b: Int) -> Int
 {
     return a + b
 }//类型为：(Int, Int)->Int
+addTwoInts(1, b: 2)
+
 func printHello()
 {
     print("hello")
