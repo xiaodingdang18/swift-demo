@@ -74,3 +74,9 @@
 * 5.将错误转换成可选值，let x = try? someThrowingFunction()
 * 6.如果明知道throwing函数不会抛出错误，想要禁止错误传递，可以用try!
 * 7.指定清理操作，defer语句在即将离开当前作用域前执行一些清理操作
+
+###类型检查
+* 1.使用is检查一个实例是否是一个类的子类 if item is Class
+* 2.使用as？ ，as! 类型转换, let movie = item as? Class
+* 3.Any 任何对象类型
+* 4.AnyObject,任何类型，包括函数
