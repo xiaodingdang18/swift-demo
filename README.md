@@ -80,3 +80,6 @@
 * 2.使用as？ ，as! 类型转换, let movie = item as? Class
 * 3.Any 任何对象类型
 * 4.AnyObject,任何类型，包括函数
+
+###类型嵌套
+* 1.枚举、类、结构体支持类型嵌套

@@ -22,9 +22,10 @@ print(CompassPoint.North,CompassPoint.South)
 enum Planet
 {
     case Mercury,Venus,Earth,Mars,Jupiter
+    case Other
 }
 
-print(Planet.Mercury, Planet.Venus)
+print(Planet.Mercury, Planet.Venus,Planet.Other.hashValue)
 
 //当directionToHead被声明为CompassPoint类型后，就可以用.West赋值
 var directionToHead = CompassPoint.South
